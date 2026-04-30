@@ -1,10 +1,5 @@
-fecha_generacion: "2026-04-30 01:30:12"
+fecha_generacion: "2026-04-30 01:32:46"
 carpeta_evaluada: "source"
 algoritmo: "SHA256"
-extensiones_consideradas:
-  - ".py"
-  - ".sas"
-  - ".sql"
-  - ".txt"
 cantidad_archivos_incluidos: 6
-clave: "0758afbe6230f229024aaf6b42a5bb079b52a9ca21d3f611cf23a4eb4a84d3f7"
+clave: "74ab75aa2258db4ecaee5226b568c28c989c985356558e13b4e602e7af6a0fe8"
