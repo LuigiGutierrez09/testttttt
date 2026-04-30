@@ -38,8 +38,7 @@ def main():
 
     output_file =  source_dir/"hash_source.txt"
 
-    contenido = f"""Hash automático de carpeta source/src
-
+    contenido = f"""
 Fecha de generación: {datetime.now().strftime("%Y-%m-%d %H:%M:%S")}
 Carpeta evaluada: {ruta_source}
 Extensiones consideradas: .py, .sas, .sql, .txt
