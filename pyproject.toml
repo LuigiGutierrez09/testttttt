@@ -1,0 +1,12 @@
+[project]
+name = "proyecto-ml-basico"
+version = "0.1.0"
+description = "Pipeline ML básico con preprocesamiento, entrenamiento dummy y posprocesamiento"
+requires-python = ">=3.10"
+dependencies = [
+    "pandas>=2.0.0",
+    "numpy>=1.24.0"
+]
+
+[tool.ruff]
+line-length = 88
