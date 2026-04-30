@@ -52,7 +52,7 @@ def main():
     contenido = f"""fecha_generacion: "{datetime.now().strftime("%Y-%m-%d %H:%M:%S")}"
 carpeta_evaluada: "{ruta_source}"
 algoritmo: "SHA256"
-cantidad_archivos_incluidos: {cantidad_archivos}
+archivos: {cantidad_archivos}
 clave: "{hash_actual}"
 """
 
