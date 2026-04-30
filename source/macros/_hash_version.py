@@ -26,7 +26,7 @@ def hash_carpeta(ruta_carpeta, extensiones=None):
 
 
 def main():
-    ruta_source = "src"  # En GitHub Actions usa ruta relativa, no C:\...
+    ruta_source = "source"  # En GitHub Actions usa ruta relativa, no C:\...
 
     hash_actual = hash_carpeta(
         ruta_source,
