@@ -45,7 +45,7 @@ def main():
     hash_actual, cantidad_archivos = hash_carpeta(
         ruta_source,
         extensiones=extensiones,
-        excluir_archivos={"version_manifest.yml"}
+        excluir_archivos={"version_manifest.yml","_hash_version.py"}
     )
 
     contenido = f"""fecha_generacion: "{datetime.now().strftime("%Y-%m-%d %H:%M:%S")}"
