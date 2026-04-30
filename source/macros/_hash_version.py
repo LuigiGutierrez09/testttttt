@@ -33,10 +33,10 @@ def main():
         extensiones={".py", ".sas", ".sql", ".txt"}
     )
 
-    #output_dir = Path("outputs")
-    #output_dir.mkdir(exist_ok=True)
+    source_dir = Path("source")
+    source_dir.mkdir(exist_ok=True)
 
-    output_file =  "hash_source.txt"
+    output_file =  source_dir/"hash_source.txt"
 
     contenido = f"""Hash automático de carpeta source/src
 
