@@ -1,0 +1,10 @@
+fecha_generacion: "2026-04-30 01:27:23"
+carpeta_evaluada: "source"
+algoritmo: "SHA256"
+extensiones_consideradas:
+  - ".py"
+  - ".sas"
+  - ".sql"
+  - ".txt"
+cantidad_archivos_incluidos: 6
+hash_sha256: "a7c5fb630a9e3ae415a8002ea327acd5ed364df5fd901968637d0f734612b154"
