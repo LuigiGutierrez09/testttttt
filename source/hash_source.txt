@@ -1,7 +1,7 @@
 
-Fecha de generación: 2026-04-30 01:13:37
-Carpeta evaluada: src
+Fecha de generación: 2026-04-30 01:18:15
+Carpeta evaluada: source
 Extensiones consideradas: .py, .sas, .sql, .txt
 
 HASH_SHA256:
-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+93e13e0f5bb2dbe2591006a882b13f3d4a00ced73bd02bc595227db099fe7ce5
