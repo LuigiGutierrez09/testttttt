@@ -2,7 +2,6 @@ import hashlib
 from datetime import datetime
 from pathlib import Path
 
-
 def hash_carpeta(ruta_carpeta, extensiones=None, excluir_archivos=None):
     """Calcula un hash SHA256 considerando rutas relativas y contenido."""
     ruta = Path(ruta_carpeta)
