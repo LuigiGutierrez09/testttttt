@@ -83,7 +83,7 @@ def main():
         extensiones=extensiones,
         excluir_archivos={
             "version_manifest.yml",
-            "hash_source.txt"
+           "macros/_hash_version.py"
         },
         excluir_carpetas={
             "__pycache__",
