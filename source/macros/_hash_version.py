@@ -52,20 +52,15 @@ def main():
     contenido = f"""fecha_generacion: "{datetime.now().strftime("%Y-%m-%d %H:%M:%S")}"
 carpeta_evaluada: "{ruta_source}"
 algoritmo: "SHA256"
-extensiones_consideradas:
-  - ".py"
-  - ".sas"
-  - ".sql"
-  - ".txt"
 cantidad_archivos_incluidos: {cantidad_archivos}
 clave: "{hash_actual}"
 """
 
     output_file.write_text(contenido, encoding="utf-8")
 
-    print(f"Hash generado: {hash_actual}")
-    print(f"Cantidad de archivos incluidos: {cantidad_archivos}")
-    print(f"Archivo creado: {output_file}")
+    #print(f"Hash generado: {hash_actual}")
+    #print(f"Cantidad de archivos incluidos: {cantidad_archivos}")
+    #print(f"Archivo creado: {output_file}")
 
 
 if __name__ == "__main__":
