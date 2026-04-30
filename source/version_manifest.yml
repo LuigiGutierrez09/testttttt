@@ -1,6 +1,5 @@
-fecha_generacion: "2026-04-30 01:56:07"
+fecha_generacion: "2026-04-30 02:02:38"
 carpeta_evaluada: "source"
 algoritmo: "SHA256"
-normalizacion: "BOM removido, CRLF/CR normalizado a LF, espacios finales removidos"
 archivos: 6
-clave: "c23ceee49a13d77c8debc591b14eaca141abc0387246c262377cb3b83993081f"
+clave: "fd41650de4e037bc1a3bbe693a35f0f84b6dcfb7de0dc8c8c3a208c7a1f494f2"
