@@ -58,7 +58,7 @@ extensiones_consideradas:
   - ".sql"
   - ".txt"
 cantidad_archivos_incluidos: {cantidad_archivos}
-hash_sha256: "{hash_actual}"
+clave: "{hash_actual}"
 """
 
     output_file.write_text(contenido, encoding="utf-8")
