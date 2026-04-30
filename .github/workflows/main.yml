@@ -1,4 +1,4 @@
-name: Generar hash de carpeta source
+name: Generar version manifest de carpeta source
 
 on:
   push:
@@ -7,7 +7,7 @@ on:
       - master
 
 jobs:
-  generar-hash:
+  generar-version-manifest:
     runs-on: ubuntu-latest
 
     permissions:
@@ -25,11 +25,11 @@ jobs:
       - name: Ejecutar script de hash
         run: python source/macros/_hash_version.py
 
-      - name: Guardar TXT en el repositorio
+      - name: Guardar version manifest en el repositorio
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
 
-          git add source/hash_source.txt
-          git commit -m "Generar hash automático de source" || echo "No hay cambios para commitear"
+          git add source/version_manifest.yml
+          git commit -m "Actualizar version manifest" || echo "No hay cambios para commitear"
           git push
